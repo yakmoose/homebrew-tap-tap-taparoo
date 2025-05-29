@@ -82,16 +82,14 @@ class Curl < Formula
       --without-ca-path
       --with-ca-fallback
       --with-secure-transport
-      --with-default-ssl-backend=openssl
       --with-librtmp
       --with-libssh2
       --without-libpsl
       --with-zsh-functions-dir=#{zsh_completion}
       --with-fish-functions-dir=#{fish_completion}
       --enable-alt-svc
-      --with-nghttp3
-      --with-nghttp2
-      --with-ngtcp2
+      --with-nghttp3=#{Formula["libnghttp3"].opt_prefix}
+      --with-ngtcp2=#{Formula["libngtcp2"].opt_prefix}
     ]
 
     args << if OS.mac?
