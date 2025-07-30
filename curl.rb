@@ -3,11 +3,11 @@ class Curl < Formula
   homepage "https://curl.se"
   # Don't forget to update both instances of the version in the GitHub mirror URL.
   # `url` goes below this comment when the `stable` block is removed.
-  url "https://curl.se/download/curl-8.14.0.tar.bz2"
-  mirror "https://github.com/curl/curl/releases/download/curl-8_14_0/curl-8.14.0.tar.bz2"
-  mirror "http://fresh-center.net/linux/www/curl-8.14.0.tar.bz2"
-  mirror "http://fresh-center.net/linux/www/legacy/curl-8.14.0.tar.bz2"
-  sha256 "efa1403c5ac4490c8d50fc0cabe97710abb1bf2a456e375a56d960b20a1cba80"
+  url "https://curl.se/download/curl-8.15.0.tar.bz2"
+  mirror "https://github.com/curl/curl/releases/download/curl-8_15_0/curl-8.15.0.tar.bz2"
+  mirror "http://fresh-center.net/linux/www/curl-8.15.0.tar.bz2"
+  mirror "http://fresh-center.net/linux/www/legacy/curl-8.15.0.tar.bz2"
+  sha256 "sha256:699a6d2192322792c88088576cff5fe188452e6ea71e82ca74409f07ecc62563"
   license "curl"
 
   livecheck do
