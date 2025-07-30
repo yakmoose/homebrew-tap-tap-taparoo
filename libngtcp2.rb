@@ -4,8 +4,8 @@
 class Libngtcp2 < Formula
   desc "ngtcp2 project is an effort to implement IETF QUIC protocol"
   homepage "https://nghttp2.org/ngtcp2/"
-  url "https://github.com/ngtcp2/ngtcp2/releases/download/v1.13.0/ngtcp2-1.13.0.tar.gz"
-  sha256 "a175a6a58313d5736256bf7978d20666f030632a5b6ba80c992d6475690633ea"
+  url "https://github.com/ngtcp2/ngtcp2/releases/download/v1.14.0/ngtcp2-1.14.0.tar.gz"
+  sha256 "25272473f12eaf7a04f8f437edd892753e5e772f490f469609609b75693d4910"
   license "MIT"
 
 
