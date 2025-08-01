@@ -14,6 +14,9 @@ class Envop < Formula
 
   depends_on "go" => :build
 
+  bottle do
+    root_url "https://github.com/yakmoose/envop/releases/download/v0.2.5"
+  end
   head do
     url "https://github.com/yakmoose/envop.git", branch: "main"
     depends_on "go" => :build
